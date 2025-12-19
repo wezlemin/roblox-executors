@@ -27,46 +27,56 @@ https://www.mediafire.com/file/7afzer5xxo1110n/Codex_2.674.782.ipa/file
 Cryptic: https://getcryptic.net/
 
 Cryptic Android:
-https://www.mediafire.com/file/m6qx2ddc3murw3u/Cryptic.apk/file
+https://www.mediafire.com/file/t7cyqn9145t2zov/Cryptic_2.702.622.apk/file
 
-Cryptic iOS:
-https://www.mediafire.com/file/156tzthxkn3bqez/Cryptic_2.689.880_VNG.apk/file
+Cryptic VNG:
+https://www.mediafire.com/file/3yq3y5sp46wnn0p/Cryptic_VNG_2.702.613.apk/file
 
 ------------------------------------------------------------------------------------------------------------------------
 Delta: https://deltaexploits.gg/, https://wearedevs.net/d/Delta
 
 Delta Android:
-https://delta.filenetwork.vip/file/Delta-2.700.937-02.apk
+https://delta.filenetwork.vip/file/Delta-2.702.622.apk
 
 Delta iOS:
-https://cdn.gloopup.net/file/Delta-2.700.937.ipa
+https://cdn.gloopup.net/file/Delta-2.701.966.ipa
 
 ------------------------------------------------------------------------------------------------------------------------
 Fluxus Z: https://wearedevs.net/d/Fluxus%20Z
 
 Fluxus Z Android:
-https://wrdcdn.net/r/68963/1762908951709/FluxusZ_32Bits.apk
-https://wrdcdn.net/r/68963/1764465589499/FluxusZ V3.0.0.apk
+https://wrdcdn.net/r/68963/1765836934449/FluxusZ%20ARM32%20V3.0.6.apk
+https://wrdcdn.net/r/68963/1765043213492/FluxusZ%20V3.0.3%20ARM64.apk
 
 Fluxus Z VNG:
-https://wrdcdn.net/r/68963/1762908992789/FluxusZ 2.0.4 Vng (1).apk
-https://wrdcdn.net/r/68963/1762909011517/FluxusZ 2.0.4 Vng.apk
+https://wrdcdn.net/r/68963/1765754454682/FluxusZ%20V3.0.6%20VNG%20ARM64.apk
 
 ------------------------------------------------------------------------------------------------------------------------
 Ronix: https://ronixstudios.io/, https://wearedevs.net/d/Ronix
 
 Ronix Android:
-https://wrdcdn.net/r/154522/1763702832864/Ronix_64Bits%20(1).apk
-https://wrdcdn.net/r/154522/1763702836124/Ronix_32Bits%20(4).apk
+https://wrdcdn.net/r/154522/1765771981400/Ronix_32Bits.apk
+https://wrdcdn.net/r/154522/1765771982385/Ronix_64Bits.apk
 
 Ronix VNG:
-https://wrdcdn.net/r/154522/1758831947320/NEW_Vietnam_2.690.721.apk
+https://wrdcdn.net/r/154522/1765754971591/Ronix_VNG_32Bits.apk
+https://wrdcdn.net/r/154522/1765771976323/Ronix_VNG_64Bits.apk
+
+------------------------------------------------------------------------------------------------------------------------
+Punk X: https://wearedevs.net/d/Punk%20X
+
+Punk X Android:
+https://wrdcdn.net/r/217264/1765898283438/PunkX_32Bits.apk
+https://wrdcdn.net/r/217264/1765898302526/PunkX_64Bits.apk
+
+Punk X VNG:
+https://wrdcdn.net/r/217264/1765898337447/PunkX_VNG_64Bits.apk
 
 ------------------------------------------------------------------------------------------------------------------------
 Trigon: https://trigonevo.com
 
 Trigon Android:
-https://www.mediafire.com/file/f64gdk82080cepo/Trigon_FIX_v2.700.937.apk/file
+https://www.mediafire.com/file/inhggg6wrkennr3/Trigon_v2.701.966.apk/file
 
 ------------------------------------------------------------------------------------------------------------------------
 Vega X: https://vegax.gg
