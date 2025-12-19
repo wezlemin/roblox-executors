@@ -52,6 +52,17 @@ Fluxus Z VNG:
 https://wrdcdn.net/r/68963/1765754454682/FluxusZ%20V3.0.6%20VNG%20ARM64.apk
 
 ------------------------------------------------------------------------------------------------------------------------
+JJSploit: https://wearedevs.net/d/JJSploit-Android
+
+JJSploit Android:
+https://wrdcdn.net/r/103473/1765836777921/JJSploit_32Bits.apk
+https://wrdcdn.net/r/103473/1765836794835/JJSploit_64Bits.apk
+
+JJSploit VNG:
+https://wrdcdn.net/r/103473/1765836810912/JJSploit_VNG_32Bits.apk
+https://wrdcdn.net/r/103473/1765836828794/JJSploit_VNG_64Bits.apk
+
+------------------------------------------------------------------------------------------------------------------------
 Ronix: https://ronixstudios.io/, https://wearedevs.net/d/Ronix
 
 Ronix Android:
