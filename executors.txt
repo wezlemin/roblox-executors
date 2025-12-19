@@ -42,14 +42,18 @@ Delta iOS:
 https://cdn.gloopup.net/file/Delta-2.701.966.ipa
 
 ------------------------------------------------------------------------------------------------------------------------
-Fluxus Z: https://wearedevs.net/d/Fluxus%20Z
+Fluxus Z: https://fluxusz.com/, https://wearedevs.net/d/Fluxus%20Z
 
 Fluxus Z Android:
 https://wrdcdn.net/r/68963/1765836934449/FluxusZ%20ARM32%20V3.0.6.apk
+https://www.mediafire.com/file/wk9wfhmxvi3se9q/FluxusZ+ARM32+V3.0.6.apk/file
+
 https://wrdcdn.net/r/68963/1765043213492/FluxusZ%20V3.0.3%20ARM64.apk
+https://www.mediafire.com/file/7iizmrzio32qsve/FluxusZ+V3.0.6+ARM64.apk/file
 
 Fluxus Z VNG:
 https://wrdcdn.net/r/68963/1765754454682/FluxusZ%20V3.0.6%20VNG%20ARM64.apk
+https://www.mediafire.com/file/v2iuh5a7klnu84j/FluxusZ+V3.0.6+VNG+ARM64.apk/file
 
 ------------------------------------------------------------------------------------------------------------------------
 JJSploit: https://wearedevs.net/d/JJSploit-Android
