@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Roblox Executors Hub</title>
 
+
 <style>
     body {
         margin: 0;
@@ -100,54 +101,31 @@
 <header>
     <h1>Roblox Executors Hub</h1>
     <p>Android • iOS • VNG</p>
+    <p>Last Update: 2026-03-21</p>
 </header>
+
+<div style="margin-bottom:20px; display:flex; gap:10px; flex-wrap:wrap;">
+    
+    <select id="sortSelect">
+        <option value="safety">Mode: Safety (Tier)</option>
+        <option value="sunc">Mode: sUNC</option>
+    </select>
+
+    <select id="platformFilter">
+        <option value="all">Platform: All</option>
+        <option value="android">Android</option>
+        <option value="ios">iOS</option>
+        <option value="vng">VNG</option>
+        <option value="ios-vng">iOS VNG</option>
+    </select>
+
+</div>
 
 <div class="container">
 
-    <!-- Arceus X -->
-    <div class="card">
-        <h2>Arceus X NEO</h2>
-        <div class="official">
-            <a href="https://spdmteam.com" target="_blank">Official Website</a> |
-            <a class="sunc" href="https://sunc.rubis.app/?scrap=zudU8eBkCYxRgmsP&key=MAE9gKmz7mZ81USlqxqidumTU7vTxM0a" target="_blank">sUNC (91%)</a>
-        </div>
-        <div class="links">
-            <a href="https://android.spdmteam.com/">Android</a>
-            <a href="https://vng.spdmteam.com/">VNG</a>
-            <a href="https://ios.spdmteam.com/">iOS</a>
-        </div>
-    </div>
-
-    <!-- Codex -->
-    <div class="card">
-        <h2>Codex</h2>
-        <div class="official">
-            <a href="https://codex.lol" target="_blank">Official Website</a> |
-            <a class="sunc" href="https://sunc.rubis.app/?scrap=5yw3PhmmOb6ozAKw&key=KSfQ27iDKyNa1v5TwxvcNXZNHZlCuv0W" target="_blank">sUNC (90%)</a>
-        </div>
-        <div class="links">
-            <a href="https://codex.lol/download/android">Android</a>
-            <a href="https://www.mediafire.com/file/no4ydloor0g947q/Codex+V2.711.876.apk/file">Android (Direct)</a>
-        </div>
-    </div>
-
-    <!-- Cryptic -->
-    <div class="card">
-        <h2>Cryptic</h2>
-        <div class="official">
-            <a href="https://getcryptic.net/" target="_blank">Official Website</a> |
-            <a class="sunc" href="https://sunc.rubis.app/?scrap=JpBQOVyY7JWJ7vOf&key=Pt7RJ7Mq6fpn9LH8Y4U7X2qF4J0wsAuB" target="_blank">sUNC (85%)</a>
-        </div>
-        <div class="links">
-            <a href="https://www.mediafire.com/file/p2bnbixk4pxpl25/Cryptic_APK_2.710.707.apk/file">Android 64-bit</a>
-            <a href="https://www.mediafire.com/file/lt9e0dt7yuj090s/Cryptic_APK_2.710.707_%252832-bit%2529.apk/file">Android 32-bit</a>
-            <a href="https://www.mediafire.com/file/s4r9rluhwy9j8cs/Cryptic_VNG_APK_2.710.706.apk/file">VNG 64-bit</a>
-            <a href="https://www.mediafire.com/file/3ink3t4b10yhquf/Cryptic_VNG_APK_2.710.706_%252832-bit%2529.apk/file">VNG 32-bit</a>
-        </div>
-    </div>
-
+    <h2 style="color:#00ff9d;">Tier 1 (Safest)</h2>
     <!-- Delta -->
-    <div class="card">
+    <div class="card" data-sunc="96" data-platforms="android,vng,ios">
         <h2>Delta</h2>
         <div class="official">
             <a href="https://deltaexploits.gg/" target="_blank">Website</a> |
@@ -160,9 +138,65 @@
             <a href="https://gloopup.net/Delta/ios/">iOS</a>
         </div>
     </div>
+    
+    <h2 style="color:#4da6ff;">Tier 2</h2>
+    <!-- Vega X -->
+    <div class="card" data-sunc="89" data-platforms="android">
+        <h2>Vega X</h2>
+        <div class="official">
+            <a href="https://vegax.gg" target="_blank">Official Website</a> |
+            <a class="sunc" href="https://sunc.rubis.app/?scrap=4zlqf8sSe3OEDsi5&key=UNwS0pZT2tJNKOTBUqfsSIltU9aYhAOR" target="_blank">sUNC (89%)</a>
+        </div>
+        <div class="links">
+            <a href="https://github.com/1f0yt/community/releases/download/Vegax/Vega.X.apk">Android</a>
+            <a href="https://pastebin.com/raw/hqmbbSqW">Mirror</a>
+        </div>
+    </div>
 
+    <h2 style="color:#ffc14d;">Tier 3</h2>
+    <!-- Cryptic -->
+    <div class="card" data-sunc="85" data-platforms="android,vng">
+        <h2>Cryptic</h2>
+        <div class="official">
+            <a href="https://getcryptic.net/" target="_blank">Official Website</a> |
+            <a class="sunc" href="https://sunc.rubis.app/?scrap=JpBQOVyY7JWJ7vOf&key=Pt7RJ7Mq6fpn9LH8Y4U7X2qF4J0wsAuB" target="_blank">sUNC (85%)</a>
+        </div>
+        <div class="links">
+            <a href="https://www.mediafire.com/file/p2bnbixk4pxpl25/Cryptic_APK_2.710.707.apk/file">Android 64-bit</a>
+            <a href="https://www.mediafire.com/file/lt9e0dt7yuj090s/Cryptic_APK_2.710.707_%252832-bit%2529.apk/file">Android 32-bit</a>
+            <a href="https://www.mediafire.com/file/s4r9rluhwy9j8cs/Cryptic_VNG_APK_2.710.706.apk/file">VNG 64-bit</a>
+            <a href="https://www.mediafire.com/file/3ink3t4b10yhquf/Cryptic_VNG_APK_2.710.706_%252832-bit%2529.apk/file">VNG 32-bit</a>
+        </div>
+    </div>
+    
+    <!-- Codex -->
+    <div class="card" data-sunc="90" data-platforms="android">
+        <h2>Codex</h2>
+        <div class="official">
+            <a href="https://codex.lol" target="_blank">Official Website</a> |
+            <a class="sunc" href="https://sunc.rubis.app/?scrap=5yw3PhmmOb6ozAKw&key=KSfQ27iDKyNa1v5TwxvcNXZNHZlCuv0W" target="_blank">sUNC (90%)</a>
+        </div>
+        <div class="links">
+            <a href="https://codex.lol/download/android">Android</a>
+            <a href="https://www.mediafire.com/file/no4ydloor0g947q/Codex+V2.711.876.apk/file">Android (Direct)</a>
+        </div>
+    </div>
+
+    <h2 style="color:#ff5e5e;">Tier 4 (Use with caution)</h2>
+    <!-- Trigon -->
+    <div class="card" data-sunc="87" data-platforms="android">
+        <h2>Trigon</h2>
+        <div class="official">
+            <a href="https://trigonevo.com" target="_blank">Official Website</a> |
+            <a class="sunc" href="https://sunc.rubis.app/?scrap=wqpLy2gJTG4NZi4Q&key=x62A5ZruDY5Zf6YIciBTZNXUMbgSZXqu" target="_blank">sUNC (87%)</a>
+        </div>
+        <div class="links">
+            <a href="https://www.mediafire.com/file/61glu17cqbwevd3/Trigon_2.711.876.apk/file">Android</a>
+        </div>
+    </div>
+    
     <!-- JJSploit -->
-    <div class="card">
+    <div class="card" data-sunc="87" data-platforms="android,vng">
         <h2>JJSploit</h2>
         <div class="official">
             <a href="https://wearedevs.net/d/JJSploit-Android" target="_blank">WeAreDevs</a> |
@@ -176,8 +210,22 @@
         </div>
     </div>
 
+   <!-- Arceus X -->
+    <div class="card" data-sunc="91" data-platforms="android,vng,ios">
+        <h2>Arceus X NEO</h2>
+        <div class="official">
+            <a href="https://spdmteam.com" target="_blank">Official Website</a> |
+            <a class="sunc" href="https://sunc.rubis.app/?scrap=zudU8eBkCYxRgmsP&key=MAE9gKmz7mZ81USlqxqidumTU7vTxM0a" target="_blank">sUNC (91%)</a>
+        </div>
+        <div class="links">
+            <a href="https://android.spdmteam.com/">Android</a>
+            <a href="https://vng.spdmteam.com/">VNG</a>
+            <a href="https://ios.spdmteam.com/">iOS</a>
+        </div>
+    </div>
+    
     <!-- Ronix -->
-    <div class="card">
+    <div class="card" data-sunc="87" data-platforms="android,vng,ios,ios-vng">
         <h2>Ronix</h2>
         <div class="official">
             <a href="https://ronixstudios.io/" target="_blank">Website</a> |
@@ -194,36 +242,76 @@
         </div>
     </div>
 
-    <!-- Trigon -->
-    <div class="card">
-        <h2>Trigon</h2>
-        <div class="official">
-            <a href="https://trigonevo.com" target="_blank">Official Website</a> |
-            <a class="sunc" href="https://sunc.rubis.app/?scrap=wqpLy2gJTG4NZi4Q&key=x62A5ZruDY5Zf6YIciBTZNXUMbgSZXqu" target="_blank">sUNC (87%)</a>
-        </div>
-        <div class="links">
-            <a href="https://www.mediafire.com/file/61glu17cqbwevd3/Trigon_2.711.876.apk/file">Android</a>
-        </div>
-    </div>
-
-    <!-- Vega X -->
-    <div class="card">
-        <h2>Vega X</h2>
-        <div class="official">
-            <a href="https://vegax.gg" target="_blank">Official Website</a> |
-            <a class="sunc" href="https://sunc.rubis.app/?scrap=4zlqf8sSe3OEDsi5&key=UNwS0pZT2tJNKOTBUqfsSIltU9aYhAOR" target="_blank">sUNC (89%)</a>
-        </div>
-        <div class="links">
-            <a href="https://github.com/1f0yt/community/releases/download/Vegax/Vega.X.apk">Android</a>
-            <a href="https://pastebin.com/raw/hqmbbSqW">Mirror</a>
-        </div>
-    </div>
-
 </div>
 
 <footer>
     <p>Educational / informational site • Not affiliated with Roblox • Website by <a href="https://github.com/wezlemin/roblox-executors">wezlemin</a></p>
 </footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const sortSelect = document.getElementById("sortSelect");
+    const platformFilter = document.getElementById("platformFilter");
+    const container = document.querySelector(".container");
+
+    const allCards = Array.from(document.querySelectorAll(".card"));
+    const tierHeaders = Array.from(container.querySelectorAll("h2"));
+
+    // Save original layout (for safety mode)
+    const originalOrder = container.innerHTML;
+
+    function applyFilter() {
+        const value = platformFilter.value;
+
+        document.querySelectorAll(".card").forEach(card => {
+            const platforms = card.dataset.platforms;
+
+            if (value === "all" || platforms.includes(value)) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    }
+
+    function showSuncMode() {
+        // Clear container
+        container.innerHTML = "";
+
+        // Sort cards globally
+        let sorted = [...allCards].sort((a, b) => b.dataset.sunc - a.dataset.sunc);
+
+        sorted.forEach(card => {
+            container.appendChild(card);
+        });
+
+        applyFilter();
+    }
+
+    function showSafetyMode() {
+        // Restore original layout (tiers)
+        container.innerHTML = originalOrder;
+
+        applyFilter();
+    }
+
+    // SORT MODE SWITCH
+    sortSelect.addEventListener("change", () => {
+        if (sortSelect.value === "sunc") {
+            showSuncMode();
+        } else {
+            showSafetyMode();
+        }
+    });
+
+    // FILTER
+    platformFilter.addEventListener("change", () => {
+        applyFilter();
+    });
+
+});
+</script>
 
 </body>
 </html>
