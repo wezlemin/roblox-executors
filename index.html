@@ -87,6 +87,52 @@
         text-decoration: underline;
     }
 
+.toolbar {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    padding: 12px;
+    background: #151922;
+    border: 1px solid #222;
+    border-radius: 10px;
+}
+
+/* Styled selects */
+.toolbar select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background: #1f2633;
+    color: #fff;
+    border: 1px solid #2a3242;
+    padding: 10px 40px 10px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+/* Hover */
+.toolbar select:hover {
+    border-color: #4da6ff;
+}
+
+/* Focus glow */
+.toolbar select:focus {
+    outline: none;
+    border-color: #4da6ff;
+    box-shadow: 0 0 0 2px rgba(77, 166, 255, 0.2);
+}
+
+/* Custom arrow */
+.toolbar select {
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23aaa' height='20' viewBox='0 0 20 20' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M5 7l5 5 5-5H5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
     footer {
         text-align: center;
         padding: 15px;
@@ -104,8 +150,8 @@
     <p>Last Update: 2026-03-21</p>
 </header>
 
-<div style="margin-bottom:20px; display:flex; gap:10px; flex-wrap:wrap;">
-    
+<div class="toolbar">
+        
     <select id="sortSelect">
         <option value="safety">Mode: Safety (Tier)</option>
         <option value="sunc">Mode: sUNC</option>
