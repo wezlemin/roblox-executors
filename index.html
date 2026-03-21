@@ -307,19 +307,42 @@ document.addEventListener("DOMContentLoaded", () => {
     // Save original layout (for safety mode)
     const originalOrder = container.innerHTML;
 
-    function applyFilter() {
-        const value = platformFilter.value;
+function applyFilter() {
+    const value = platformFilter.value;
 
-        document.querySelectorAll(".card").forEach(card => {
-            const platforms = card.dataset.platforms;
+    const cards = document.querySelectorAll(".card");
 
-            if (value === "all" || platforms.includes(value)) {
-                card.style.display = "block";
-            } else {
-                card.style.display = "none";
+    // Show/hide cards
+    cards.forEach(card => {
+        const platforms = card.dataset.platforms;
+
+        if (value === "all" || platforms.includes(value)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+
+    // Handle headers
+    const headers = container.querySelectorAll("h2[style]");
+
+    headers.forEach(header => {
+        let next = header.nextElementSibling;
+        let hasVisibleCard = false;
+
+        // Loop until next header
+        while (next && !next.matches("h2")) {
+            if (next.classList.contains("card") && next.style.display !== "none") {
+                hasVisibleCard = true;
+                break;
             }
-        });
-    }
+            next = next.nextElementSibling;
+        }
+
+        // Show/hide header
+        header.style.display = hasVisibleCard ? "block" : "none";
+    });
+}
 
     function showSuncMode() {
         // Clear container
